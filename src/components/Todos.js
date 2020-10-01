@@ -15,7 +15,6 @@ class Todos extends Component {
 				return (
 					<TodoItem
 						delete={this.deleteTodoHandler}
-						edit={this.editHandler}
 						key={todo.id}
 						todo={todo}
 					/>
