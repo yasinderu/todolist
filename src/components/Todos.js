@@ -13,12 +13,7 @@ class Todos extends Component {
 		const todoList = this.props.todos.length ? (
 			this.props.todos.map(todo => {
 				return (
-					<TodoItem
-						delete={this.deleteTodoHandler}
-						edit={this.editHandler}
-						key={todo.id}
-						todo={todo}
-					/>
+					<TodoItem delete={this.deleteTodoHandler} key={todo.id} todo={todo} />
 				);
 			})
 		) : (
