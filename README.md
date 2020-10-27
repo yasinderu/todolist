@@ -1,6 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Important Notes
+
+This application is using firebase for the backend and materializecss CDN for styling
+(you may need internet connection in order to run the application)
+
 ## Available Scripts
+
+Before running the application, you should run:
+
+### `npm install`
 
 In the project directory, you can run:
 
